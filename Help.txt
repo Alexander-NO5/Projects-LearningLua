@@ -6,3 +6,11 @@ type("welcome")   -- string
 type(print)       -- function
 type({})          -- table
 type(io.stdin)    -- userdata
+
+Strings can be multi-line with [[ ]].
+starting_sequence = [[
+Mira, Rumi, and Zoey 
+all looked at each 
+other in awe, as they
+leaped across the stage...
+]]
