@@ -1,0 +1,8 @@
+Lua has 8 distinct data types:
+type(nil)         -- nil, the absence of a value
+type(true)        -- boolean
+type(10.4 * 12)   -- number
+type("welcome")   -- string
+type(print)       -- function
+type({})          -- table
+type(io.stdin)    -- userdata
