@@ -1,4 +1,4 @@
-Lua has 8 distinct data types:
+!Lua has 8 distinct data types:
 type(nil)         -- nil, the absence of a value
 type(true)        -- boolean
 type(10.4 * 12)   -- number
@@ -7,10 +7,18 @@ type(print)       -- function
 type({})          -- table
 type(io.stdin)    -- userdata
 
-Strings can be multi-line with [[ ]].
+!Strings can be multi-line with [[ ]].
 starting_sequence = [[
 Mira, Rumi, and Zoey 
 all looked at each 
 other in awe, as they
 leaped across the stage...
 ]]
+
+!In Lua, we use two periods .. to concatenate strings:
+
+name = "Player"
+display_message = "Hello, " .. name
+
+print(display_message)  
+-- Output: Hello, Player
